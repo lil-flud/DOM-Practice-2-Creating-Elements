@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="dropdowns">
+        <label for="targetDiv">Choose element's destination:</label>
+
+        <select name="targetDiv" id="targetDiv">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select>
+
+        <label for="elements">Choose an element:</label>
+
+        <select name="elements" id="elements">
+          <option value="h1">H1</option>
+          <option value="span">span</option>
+          <option value="h2">h2</option>
+        </select>
+
+        <label for="afterBeginBeforeEnd">afterbegin or beforeend:</label>
+
+        <select name="afterBeginBeforeEnd" id="afterBeginBeforeEnd">
+          <option value="afterbegin">afterbegin</option>
+          <option value="beforeend">beforeend</option>
+        </select>
+
+        <label for="textInput">Text to be displayed:</label>
+        <input class="textInput" name="textInput" type="text" />
+
+        <button class="submit">Submit</button>
+      </div>
+      <div id="div-1"></div>
+      <div id="div-2"></div>
+      <div id="div-3"></div>
+      <div id="div-4"></div>
+    </div>
+  </body>
+</html>
